@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:21:58:51 +0800] "GET /demo HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:21:58:51 +0800] "GET /demo/ HTTP/1.1" 200 52 http-bio-8080-exec-2 819
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:21:59:03 +0800] "GET /demo/hello HTTP/1.1" 200 2 http-bio-8080-exec-3 6177
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:22:02:30 +0800] "GET /demo/hello HTTP/1.1" 200 6 http-bio-8080-exec-1 122
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:22:03:06 +0800] "GET /demo/hello HTTP/1.1" 200 24 http-bio-8080-exec-1 129
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:22:28:57 +0800] "GET /demo/hello?uname=%E5%9C%A8%E5%8E%86%E5%8F%B2%E4%BA%A4%E9%94%8B HTTP/1.1" 200 118 http-bio-8080-exec-1 761
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:22:29:07 +0800] "GET /demo/helloo?uname=%E5%9C%A8%E5%8E%86%E5%8F%B2%E4%BA%A4%E9%94%8B HTTP/1.1" 200 6 http-bio-8080-exec-2 73
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:23:33:26 +0800] "GET /demo HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:23:33:26 +0800] "GET /demo/ HTTP/1.1" 200 52 http-bio-8080-exec-2 134
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:23:33:32 +0800] "GET /demo/upload.jsp HTTP/1.1" 200 718 http-bio-8080-exec-3 626
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:23:34:59 +0800] "POST /demo/user/quick23 HTTP/1.1" 500 3744 http-bio-8080-exec-5 150
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:23:35:51 +0800] "POST /demo/user/quick23 HTTP/1.1" 200 - http-bio-8080-exec-6 37
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:23:38:44 +0800] "GET /demo/upload.jsp HTTP/1.1" 200 718 http-bio-8080-exec-1 196
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:23:38:53 +0800] "POST /demo/user/quick23 HTTP/1.1" 200 - http-bio-8080-exec-2 232
